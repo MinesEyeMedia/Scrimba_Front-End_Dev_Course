@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+}
+
+input {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+    color: whitesmoke;
+}
+
+input[type="text"] {
+    background-color: #5f9341;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    border: 1px solid #5f9341;
+}
+
+button#save-btn {
+    background: #5f9341;
+    color: whitesmoke;
+}
+
+button#delete-btn {
+    color: #5f9341;
+    background-color: rgb(44, 44, 44);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+    color: #5f9341;
+}
+
+li a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #5f9341;
+}
+
+/* visited link */
+a:visited {
+    color: #5f9341;
+}
+
+/* mouse over link */
+a:hover {
+    color: #75cc42;
+}
+
+/* selected link */
+a:active {
+    color: #75cc42;
+}
