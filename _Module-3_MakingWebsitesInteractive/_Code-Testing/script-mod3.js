@@ -1,9 +1,14 @@
+// - This is a Google Chrome/Chromium extension that will allow data/URL's (ideally) to be entered into the input bar and then can either be saved with the SAVE LEAD button, or deleted by DOUBLE CLICKING the DELETE ALL button. The user could also use the SAVE TAB URL button to save the current tabbed url in the active browser window.
+// - This app will save all this data in the locallyStored browser data unless the DELETE ALL button is double click, at which point it will nuke the data from orbit, since it's the only way to be sure.
+// - This was an intro JS project that was taught by Per Harold Borgen from Scrimba.
+
 // stores the leads
 let myLeads = []
 
 // grabs the html elements
 const inputEl = document.querySelector("#input-el")
 const saveBtn = document.querySelector("#save-btn")
+const saveTabURLBtn = document.querySelector("#saveTabURL-btn")
 const deleteBtn = document.querySelector("#delete-btn")
 const ulEl = document.querySelector("#ul-el")
 
@@ -56,7 +61,27 @@ saveBtn.addEventListener("click", function () {
     console.log(localStorage.getItem("myLeads"))
 })
 
+// this 'tabUrls' const was just placeholder testing code for the 'saveTabURLBtn' event fire.
+// const tabUrls = [{
+//     url: "https://www.linkedin.com"
+// }]
 
+// 'saveTabURLBtn' (which is a const that querySelects) has a click event listener tied to it.
+saveTabURLBtn.addEventListener("click", function () {
+    // this first function block is actually part of the Chrome API. It will > query for the url of the ACTIVE tab, in the ACTIVE window.
+    chrome.tabs.query({
+            active: true,
+            currentWindow: true
+        },
+        // this second function will push the collected/queried (via code above) active tab url and push it to the 'myLeads' array.
+        // it will then stringify the content of myLeads and store in localStorage a key:value pair ('myLeads: (data from) myLeads').
+        // then it will call 'renderData' with the 'myLeads' param.
+        function () {
+            myLeads.push(tabUrls[0].url)
+            localStorage.setItem("myLeads", JSON.stringify(myLeads))
+            renderData(myLeads)
+        })
+})
 
 
 // localStorage Manipulation.
