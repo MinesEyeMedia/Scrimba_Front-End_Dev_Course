@@ -26,7 +26,7 @@ button {
     border: 1px solid #5f9341;
 }
 
-button#save-btn {
+button#save-btn, button#saveTabURL-btn {
     background: #5f9341;
     color: whitesmoke;
 }
