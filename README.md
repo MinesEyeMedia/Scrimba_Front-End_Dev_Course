@@ -11,4 +11,12 @@ Notes and updates for the front-end developer course by Scrimba.
 
 - Commit #4 - Added 'save tab url' functionality. Slight code cleanup/refactoring. Added brief description at top of script.js.
 
-- Commit #5 - Added HTML, CSS & JS 'testing/playaround' files to 'Code-Testing' directory under Module-3.
+- Commit #5 - Added HTML, CSS & JS 'testing/play-around' files to 'Code-Testing' directory under Module-3.
+
+
+## Module #4 - CSS & Javascript Fundamentals
+### JavaScript Challenges
+
+#### Project #2 - Basic Live Search Feature
+
+- Commit #6 - Created HTML, CSS & JS files and have written the majority of code for the project.
