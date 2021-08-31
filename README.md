@@ -28,3 +28,5 @@ Notes and updates for the front-end developer course by Scrimba.
 #### Project #3 - Carousel with Vanilla JavaScript
 
 - Commit #9 - Created HTML, CSS & JS Files. Added images to be used. Wrote HTML & CSS for project.
+
+- Commit #10 - Properly styled carousel & fixed "#IDs" wrongly labeled as ".classes".
