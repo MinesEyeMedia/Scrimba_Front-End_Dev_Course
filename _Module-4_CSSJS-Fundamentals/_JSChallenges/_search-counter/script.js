@@ -27,8 +27,3 @@ inputEl.addEventListener("keyup", function (event) {
         }
     }
 })
-
-
-
-
-// console.log(nameEl)

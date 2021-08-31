@@ -22,3 +22,5 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #6 - Created HTML, CSS & JS files and have written the majority of code for the project.
 
 - Commit #7 - Slight code refactoring and detailed notes written for Basic Live Search Project.
+
+- Commit #8 - Code and note refactoring.
