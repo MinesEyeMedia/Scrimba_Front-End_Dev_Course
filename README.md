@@ -30,3 +30,5 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #9 - Created HTML, CSS & JS Files. Added images to be used. Wrote HTML & CSS for project.
 
 - Commit #10 - Properly styled carousel & fixed "#IDs" wrongly labeled as ".classes".
+
+- Commit #11 - Finished carousel JavaScript coding and added detailed notes about the code.
