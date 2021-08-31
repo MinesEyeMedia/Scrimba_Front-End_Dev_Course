@@ -34,3 +34,7 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #11 - Finished carousel JavaScript coding and added detailed notes about the code.
 
 - Commit #12 - Added smooth CSS transitions and finalized notes. Project completed for now.
+
+#### Project #4 - JavaScript Dice Game
+
+- Commit #13 - Created HTML, CSS & JS files. Basic HTML5 structure and setup.
