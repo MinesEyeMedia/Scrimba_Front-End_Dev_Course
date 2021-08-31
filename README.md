@@ -20,3 +20,5 @@ Notes and updates for the front-end developer course by Scrimba.
 #### Project #2 - Basic Live Search Feature
 
 - Commit #6 - Created HTML, CSS & JS files and have written the majority of code for the project.
+
+- Commit #7 - Slight code refactoring and detailed notes written for Basic Live Search Project.
