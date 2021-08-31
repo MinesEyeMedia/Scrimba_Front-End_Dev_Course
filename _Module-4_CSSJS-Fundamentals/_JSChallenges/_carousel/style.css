@@ -8,12 +8,14 @@ body {
     margin: 0 auto;
 }
 
-#carousel .carousel-item, #carousel .carousel-item-hidden {
+#carousel .carousel-item,
+#carousel .carousel-item-hidden {
     display: none;
 }
 
 #carousel .carousel-item-visible {
     display: block;
+    animation: fadeVisibility 0.5s;
 }
 
 #carousel .carousel-item img {
@@ -50,4 +52,14 @@ body {
 
 #carousel #carousel-actions button#carousel-button-next {
     margin-right: 40px;
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
