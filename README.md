@@ -24,3 +24,7 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #7 - Slight code refactoring and detailed notes written for Basic Live Search Project.
 
 - Commit #8 - Code and note refactoring.
+
+#### Project #3 - Carousel with Vanilla JavaScript
+
+- Commit #9 - Created HTML, CSS & JS Files. Added images to be used. Wrote HTML & CSS for project.
