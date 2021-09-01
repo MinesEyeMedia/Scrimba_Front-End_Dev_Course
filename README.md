@@ -40,3 +40,5 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #13 - Created HTML, CSS & JS files. Basic HTML5 structure and setup.
 
 - Commit #14 - Pulled HTML & CSS from Per's Scrimba Course & adapted them for my setup.
+
+- Commit #15 - Wrote the entire JavaScript for this game. Project completed for now.
