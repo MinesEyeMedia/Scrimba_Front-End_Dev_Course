@@ -11,4 +11,34 @@ Notes and updates for the front-end developer course by Scrimba.
 
 - Commit #4 - Added 'save tab url' functionality. Slight code cleanup/refactoring. Added brief description at top of script.js.
 
-- Commit #5 - Added HTML, CSS & JS 'testing/playaround' files to 'Code-Testing' directory under Module-3.
+- Commit #5 - Added HTML, CSS & JS 'testing/play-around' files to 'Code-Testing' directory under Module-3.
+
+
+## Module #4 - CSS & Javascript Fundamentals
+### JavaScript Challenges
+
+#### Project #2 - Basic Live Search Feature
+
+- Commit #6 - Created HTML, CSS & JS files and have written the majority of code for the project.
+
+- Commit #7 - Slight code refactoring and detailed notes written for Basic Live Search Project.
+
+- Commit #8 - Code and note refactoring.
+
+#### Project #3 - Carousel with Vanilla JavaScript
+
+- Commit #9 - Created HTML, CSS & JS Files. Added images to be used. Wrote HTML & CSS for project.
+
+- Commit #10 - Properly styled carousel & fixed "#IDs" wrongly labeled as ".classes".
+
+- Commit #11 - Finished carousel JavaScript coding and added detailed notes about the code.
+
+- Commit #12 - Added smooth CSS transitions and finalized notes. Project completed for now.
+
+#### Project #4 - JavaScript Dice Game
+
+- Commit #13 - Created HTML, CSS & JS files. Basic HTML5 structure and setup.
+
+- Commit #14 - Pulled HTML & CSS from Per's Scrimba Course & adapted them for my setup.
+
+- Commit #15 - Wrote the entire JavaScript for this game. Project completed for now.
