@@ -38,3 +38,5 @@ Notes and updates for the front-end developer course by Scrimba.
 #### Project #4 - JavaScript Dice Game
 
 - Commit #13 - Created HTML, CSS & JS files. Basic HTML5 structure and setup.
+
+- Commit #14 - Pulled HTML & CSS from Per's Scrimba Course & adapted them for my setup.
