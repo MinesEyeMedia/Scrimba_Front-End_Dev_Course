@@ -100,3 +100,32 @@ nav a:focus {
         margin: .5em 0;
     }
 }
+
+footer {
+    width: 100%;
+    height: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #143774;
+    /* border: 1px solid fuchsia; */
+}
+
+.footerWrapper {
+    /* border: 1px solid pink; */
+    text-align: center;
+    font-size: 18px;
+    color: #EBEBEB;
+}
+
+footer p {
+    margin: 0.3em;
+}
+
+p.footerTag {
+    font-weight: 700;
+}
+
+p.copyright {
+    font-weight: 400;
+}

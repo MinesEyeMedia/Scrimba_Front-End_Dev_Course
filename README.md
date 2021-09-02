@@ -50,3 +50,5 @@ Notes and updates for the front-end developer course by Scrimba.
 #### Living the Simple Life Responsive Site Design
 
 - Commit #1 - Imported HTML, CSS, images & text markup needed for site design. Copied into HTML & CSS already written for header, logo and nav layouts.
+
+- Commit #2 - Finished writing HTML, injecting content and setting links/images.
