@@ -1,0 +1,389 @@
+/*  Fonts
+-----
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/* Variables */
+/* End Variables */
+/* =================
+Master Body Systems
+================= */
+html,
+html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+/* =================
+Main Typography
+================= */
+h1,
+h2,
+h3 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #143774;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+p {
+  color: #707070;
+  letter-spacing: 0.2px;
+}
+
+/* =================
+Header & Nav System
+================= */
+/* Title/Logo */
+header {
+  background-color: #f8f8f8;
+  padding: 2em 0;
+}
+
+header .header__container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__container .header__site-title--subtitle {
+  font-weight: 700;
+  color: #1792d2;
+  font-size: .75rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header .header__container .header__nav--current-page {
+  border-bottom: 1px solid #707070;
+}
+
+header .header__container .header__nav--current-page :hover {
+  color: #707070;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  margin-left: 2em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 700;
+  padding: .25em 0;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: #1792d2;
+}
+
+@media (max-width: 675px) {
+  header {
+    text-align: center;
+  }
+  header .header__container--nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav ul li {
+    margin: 0.625rem 0;
+  }
+}
+
+/* =================
+Main Body
+================= */
+.masterbody--wrapper {
+  /* border: 1px solid green; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 3.375rem;
+  /* Left Side Content */
+}
+
+.masterbody--wrapper main {
+  width: 70%;
+  /* affects all <img> within <main> */
+  /* Featured Article  */
+  /* 'Continue Reading' links */
+}
+
+.masterbody--wrapper main img {
+  max-width: 100%;
+  display: block;
+}
+
+.masterbody--wrapper main .article__featured {
+  border-bottom: 1px solid #707070;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.masterbody--wrapper main .article__featured--image {
+  /* width: auto; */
+  height: 308px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center bottom;
+     object-position: center bottom;
+  -webkit-box-ordinal-group: -4;
+      -ms-flex-order: -5;
+          order: -5;
+  /* margin-bottom: 2rem; */
+}
+
+.masterbody--wrapper main .article__featured--info {
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin: 2em 0;
+  -webkit-box-ordinal-group: -3;
+      -ms-flex-order: -4;
+          order: -4;
+}
+
+.masterbody--wrapper main .article__featured--title {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  -webkit-box-ordinal-group: -2;
+      -ms-flex-order: -3;
+          order: -3;
+}
+
+.masterbody--wrapper main .article__featured--read-more,
+.masterbody--wrapper main .article__recent--read-more {
+  color: #1792d2;
+  font-size: 0.875rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.masterbody--wrapper main .article__featured--read-more:hover, .masterbody--wrapper main .article__featured--read-more:focus,
+.masterbody--wrapper main .article__recent--read-more:hover,
+.masterbody--wrapper main .article__recent--read-more:focus {
+  color: #143774;
+}
+
+/* Recent Articles Below Featured */
+article.article__recent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+article.article__recent .article__recent--main {
+  width: 68%;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+article.article__recent .article__recent--secondary {
+  width: 30%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+article.article__recent .article__recent--title {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  -webkit-box-ordinal-group: -2;
+      -ms-flex-order: -3;
+          order: -3;
+}
+
+article.article__recent .article__recent--image {
+  height: 250px;
+  max-width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center bottom;
+     object-position: center bottom;
+}
+
+article.article__recent .article__recent--info {
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin: 2em 0;
+  -webkit-box-ordinal-group: -3;
+      -ms-flex-order: -4;
+          order: -4;
+}
+
+/* Sidebar Widgets */
+aside.mastersidebar--wrapper {
+  width: 25%;
+}
+
+aside.mastersidebar--wrapper .sidebar__widget {
+  border: 20px solid #ebebeb;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+aside.mastersidebar--wrapper .sidebar__widget .sidebar__widget-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+}
+
+aside.mastersidebar--wrapper .sidebar__widget .sidebar__widget--recent-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 1em;
+}
+
+aside.mastersidebar--wrapper .sidebar__widget .sidebar__widget--recent-post:last-child {
+  border: 0;
+  margin: 0;
+}
+
+aside.mastersidebar--wrapper .sidebar__widget .sidebar__widget-recentPostTitle {
+  font-size: 1.125rem;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+aside.mastersidebar--wrapper .sidebar__widget .sidebar__widget-recentPostTitle:last-child {
+  margin-bottom: 0;
+}
+
+aside.mastersidebar--wrapper .sidebar__widget img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 675px) {
+  .masterbody--wrapper main {
+    width: 100%;
+    padding: 1.25rem;
+  }
+  aside {
+    display: none;
+  }
+}
+
+/* Utilities */
+.text--bold {
+  font-weight: 700;
+}
+
+.article__text-link {
+  color: #1792d2;
+  text-decoration: none;
+}
+
+.article__text-link:hover, .article__text-link:focus {
+  color: #143774;
+  text-decoration: none;
+}
+
+/* =================
+Footer
+================= */
+footer {
+  width: 100%;
+  height: 172px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #143774;
+  /* border: 1px solid fuchsia; */
+}
+
+footer .footer__wrapper {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.54);
+}
+
+footer .footer__wrapper .footer__tag {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+footer .footer__wrapper .footer__copyright {
+  font-weight: 400;
+  margin-top: 0;
+}
+/*# sourceMappingURL=main.css.map */
