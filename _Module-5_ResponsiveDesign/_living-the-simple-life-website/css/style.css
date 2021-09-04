@@ -7,16 +7,23 @@ font-family: 'Ubuntu', sans-serif;
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /* =================
 Typography
 ================= */
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+}
+
+h1 {
     font-size: 2rem;
     margin: 0;
 }
@@ -26,6 +33,38 @@ h1 {
     color: #1792d2;
     font-size: .75rem;
     margin: 0;
+}
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+    font-size: 0.875rem;
+}
+
+.article-read-more,
+.inter-article-link {
+    color: #1792d2;
+    text-decoration: none;
+}
+
+.article-read-more {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus,
+.inter-article-link:hover,
+.inter-article-link:focus {
+    color: #143774;
+    text-decoration: underline;
+}
+
+span.bold-text {
+    font-weight: 700;
 }
 
 /* =================
@@ -100,6 +139,11 @@ nav a:focus {
         margin: .5em 0;
     }
 }
+
+
+/* =============== */
+/* === *Footer === */
+/* =============== */
 
 footer {
     width: 100%;

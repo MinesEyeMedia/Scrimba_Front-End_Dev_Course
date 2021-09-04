@@ -52,3 +52,5 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #1 - Imported HTML, CSS, images & text markup needed for site design. Copied into HTML & CSS already written for header, logo and nav layouts.
 
 - Commit #2 - Finished writing HTML, injecting content and setting links/images.
+
+- Commit #3 - Finished rough site coding. Will refactor and rebuild mobile first in future.

@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sass/main.css">
     <title>Living the Simple Life</title>
 </head>
 
 <body>
     <header>
-        <div class="container container-nav">
-            <div class="site-title">
+        <div class="header__container header__container--nav">
+            <div class="header__site-title">
                 <h1>Living the simple life</h1>
-                <p class="subtitle">A blog exploring minimalism in life</p>
+                <p class="header__site-title--subtitle">A blog exploring minimalism in life</p>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="header__nav--current-page">Home</a></li>
                     <li><a href="#">About me</a></li>
                     <li><a href="#">Recent posts</a></li>
                 </ul>
@@ -29,99 +29,102 @@
     </header>
 
     <!-- MASTER BODY WRAPPER START -->
-    <div class="master-body-wrapper">
-        <main role="main" class="master-content-wrapper">
+    <div class="masterbody--wrapper">
+        <main role="main" class="main__master-wrapper">
 
             <!-- FEATURED ARTICLE -->
-            <article class="articleFeatured">
-                <h2 class="article-title">
+            <article class="article__featured">
+                <h2 class="article__featured--title">
                     Finding simplicity in life
                 </h2>
                 <img src="img/life.jpg"
-                    alt="a minimalist desk with only a plant, simple light and a hipsterish looking clock on the wall"
-                    class="article-image">
-                <p class="article-info">July 23, 2019 | 3 comments</p>
-                <p class="article-body">
-                    <span class="bold-text">Life can get complicated really quickly</span>, but it doesn't have to be! There are many ways to simplify
-                    your life, <a href="#" class="inter-article-link">a few of which we've explored in the past</a>. This week we're taking a bit of a approach
+                    alt="a minimalist desk with only a plant, simple light and a hipster looking clock on the wall"
+                    class="article__featured--image">
+                <p class="article__featured--info">July 23, 2019 | 3 comments</p>
+                <p class="article__featured--body">
+                    <span class="text--bold">Life can get complicated really quickly</span>, but it doesn't have to be!
+                    There are many ways to simplify
+                    your life, <a href="#" class="article__text-link">a few of which we've explored in the past</a>.
+                    This week we're taking a bit of a approach
                     though, in how you can find simplicity in the life you already living.
                 </p>
-                <a href="#" class="article-read-more">continue reading</a>
+                <a href="#" class="article__featured--read-more">continue reading</a>
             </article>
 
             <!-- RECENT ARTICLE #1 -->
-            <article class="article-recent">
-                <div class="article-recent-main">
-                    <h2 class="article-recent-title">Keeping cooking simple</h2>
-                    <p class="article-body">Food is a very important part of everyone's life. If you want to be healthy,
+            <article class="article__recent">
+                <div class="article__recent--main">
+                    <h2 class="article__recent--title">Keeping cooking simple</h2>
+                    <p class="article__recent--body">Food is a very important part of everyone's life. If you want to be
+                        healthy,
                         you have to eat healthy. One of the easiest ways to do that is to keep your cooking nice and
                         simple.
                     </p>
-                    <a href="#" class="article-read-more">continue reading</a>
+                    <a href="#" class="article__recent--read-more">continue reading</a>
                 </div>
-                <div class="article-recent-secondary">
-                    <img src="img/food.jpg" alt="super happy yummy food" class="article-image">
-                    <p class="article-info">July 19, 2019 | 3 comments</p>
+                <div class="article__recent--secondary">
+                    <img src="img/food.jpg" alt="super happy yummy food" class="article__recent--image">
+                    <p class="article__recent--info">July 19, 2019 | 3 comments</p>
                 </div>
             </article>
 
             <!-- RECENT ARTICLE #2 -->
-            <article class="article-recent">
-                <div class="article-recent-main">
-                    <h2 class="article-recent-title">Simplicity and work</h2>
-                    <p class="article-body">
+            <article class="article__recent">
+                <div class="article__recent--main">
+                    <h2 class="article__recent--title">Simplicity and work</h2>
+                    <p class="article__recent--body">
                         Work is often a major source of stress. People get frustrated, it ruins their relationship with
                         others and it leads to burnout. By keeping your work life as simple as possible, it will help
                         balance everything out.
                     </p>
-                    <a href="#" class="article-read-more">continue reading</a>
+                    <a href="#" class="article__recent--read-more">continue reading</a>
                 </div>
-                <div class="article-recent-secondary">
-                    <img src="img/work.jpg" alt="a simple chair for a simple human" class="article-image">
-                    <p class="article-info">July 12, 2019 | 3 comments</p>
+                <div class="article__recent--secondary">
+                    <img src="img/work.jpg" alt="a simple chair for a simple human" class="article__recent--image">
+                    <p class="article__recent--info">July 12, 2019 | 3 comments</p>
                 </div>
             </article>
 
             <!-- RECENT ARTICLE #3 -->
-            <article class="article-recent">
-                <div class="article-recent-main">
-                    <h2 class="article-recent-title">Simple decorations</h2>
-                    <p class="article-body">
+            <article class="article__recent">
+                <div class="article__recent--main">
+                    <h2 class="article__recent--title">Simple decorations</h2>
+                    <p class="article__recent--body">
                         A home isn't a home until you've decorated a little. People either don't decorate, or they go
                         overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the
                         eye where you want it to and make things pop like never before.
                     </p>
-                    <a href="" class="article-read-more">continue reading</a>
+                    <a href="" class="article__recent--read-more">continue reading</a>
                 </div>
-                <div class="article-recent-secondary">
-                    <img src="img/deco.jpg" alt="simple decorations for simple folk" class="article-image">
-                    <p class="article-info">July 3, 2019 | 3 comments</p>
+                <div class="article__recent--secondary">
+                    <img src="img/deco.jpg" alt="simple decorations for simple folk" class="article__recent--image">
+                    <p class="article__recent--info">July 3, 2019 | 3 comments</p>
                 </div>
             </article>
 
         </main>
 
         <!-- SIDEBAR START -->
-        <aside class="master-sidebar-wrapper">
-            <div id="aboutMe" class="sidebar-widget">
-                <h2 class="widget-title">about me</h2>
+        <aside class="mastersidebar--wrapper">
+            <div id="aboutMe" class="sidebar__widget">
+                <h2 class="sidebar__widget-title">about me</h2>
                 <img src="img/about-me.jpg" alt="look at this foo" class="widget-image">
                 <p class="widget-body-text">
                     I find life better, and I'm happier, when things are nice and simple.
                 </p>
             </div>
-            <div id="recentPosts" class="sidebar-widget">
-                <h2 class="widget-title">recent posts</h2>
-                <div class="widget-recent-post">
-                    <h3 class="widget-recent-post-title">keeping cooking simple</h3>
+            <div id="recentPosts" class="sidebar__widget">
+                <h2 class="sidebar__widget-title">recent posts</h2>
+                <div class="sidebar__widget--recent-post">
+                    <h3 class="sidebar__widget-recentPostTitle">Keeping cooking simple</h3>
                     <img src="img/food.jpg" alt="some food" class="widget-image">
                 </div>
-                <div class="widget-recent-post">
-                    <h3 class="widget-recent-post-title">simplicity and work</h3>
+                <div class="sidebar__widget--recent-post">
+                    <h3 class="sidebar__widget-recentPostTitle">Simplicity and work</h3>
                     <img src="img/work.jpg" alt="work stuff" class="widget-image">
                 </div>
-                <div class="widget-recent-post">
-                    <h3 class="widget-recent-post-title">simple decorations</h3>
+                <div class="sidebar__widget--recent-post">
+                    <h3 class="sidebar__widget-recentPostTitle">Simple decorations</h3>
                     <img src="img/deco.jpg" alt="simple hipster decor" class="widget-image">
                 </div>
             </div>
@@ -131,9 +134,9 @@
     </div><!-- / .MASTER-BODY-WRAPPER -->
 
     <footer class="footer">
-        <div class="footerWrapper">
-            <p class="footerTag">Living the Simple Life</p>
-            <p class="copyright">Copyright 2019</p>
+        <div class="footer__wrapper">
+            <p class="footer__tag">Living the Simple Life</p>
+            <p class="footer__copyright">Copyright 2019</p>
         </div>
     </footer>
 </body>
