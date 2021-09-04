@@ -42,3 +42,15 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #14 - Pulled HTML & CSS from Per's Scrimba Course & adapted them for my setup.
 
 - Commit #15 - Wrote the entire JavaScript for this game. Project completed for now.
+
+
+## Module #5 - Responsive Design
+
+###  Thinking Responsively
+#### Living the Simple Life Responsive Site Design
+
+- Commit #1 - Imported HTML, CSS, images & text markup needed for site design. Copied into HTML & CSS already written for header, logo and nav layouts.
+
+- Commit #2 - Finished writing HTML, injecting content and setting links/images.
+
+- Commit #3 - Finished rough site coding. Will refactor and rebuild mobile first in future.
