@@ -1,0 +1,209 @@
+/* Become a BBQ Master! */
+/* Variables */
+/* End Variables */
+/* =========================
+Master Overrides
+========================= */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #404040;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* =========================
+Both Sides - max-width & centering
+========================= */
+section.hero > *,
+section.register > * {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========================
+Hero Section (Top-Mobile, Left-Desktop)
+========================= */
+section.hero {
+  background-color: #404040;
+  background-image: url(/_Scrimba-Courses/_Front-End_Developer_Course/_Module-5_ResponsiveDesign/_barbecue-site/img/dark-ribs.jpg);
+  background-size: cover;
+  background-position: bottom right;
+  /* flexbox  */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50vh;
+}
+
+section.hero h1 {
+  margin: 0;
+  padding: 0 1em;
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+section.hero h2 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.3125rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #F18119;
+}
+
+section.hero h3 {
+  margin: 0;
+  padding-top: 2px;
+  font-size: 0.625rem;
+  color: #F18119;
+  border-top: 5px solid #F18119;
+  -o-border-image: linear-gradient(to left, #FF713B, #ffa51d) 1;
+     border-image: -webkit-gradient(linear, right top, left top, from(#FF713B), to(#ffa51d)) 1;
+     border-image: linear-gradient(to left, #FF713B, #ffa51d) 1;
+}
+
+section.hero span.bolded {
+  font-weight: 900;
+}
+
+/* =========================
+Register Section (Bottom-Mobile, Right-Desktop)
+========================= */
+section.register {
+  padding: 2em 1.2em;
+}
+
+section.register h2 {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+section.register h3 {
+  margin-top: 0.3em;
+  text-transform: uppercase;
+  color: #F18119;
+}
+
+section.register p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+section.register p.margin-top-kill {
+  margin-top: 0;
+}
+
+section.register p.register__finePrint {
+  font-size: 0.625rem;
+  letter-spacing: 0.4px;
+}
+
+section.register form.email-collector {
+  width: 80%;
+  max-width: 300px;
+}
+
+section.register input,
+section.register .btn {
+  width: 100%;
+  font-family: inherit;
+  text-align: inherit;
+  border-radius: 5px;
+}
+
+section.register input {
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  border: 1px solid #b6b6b6;
+}
+
+section.register .btn {
+  display: block;
+  padding: 1em 1.5em;
+  font-size: 0.625rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+}
+
+section.register .btn-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#FF713B), to(#FFA51D));
+  background: linear-gradient(to left, #FF713B, #FFA51D);
+  color: #fff;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  -webkit-transition: -webkit-transform 350ms;
+  transition: -webkit-transform 350ms;
+  transition: transform 350ms;
+  transition: transform 350ms, -webkit-transform 350ms;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+section.register .btn-primary:hover, section.register .btn-primary:focus {
+  color: #000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/* =========================
+Media Query
+========================= */
+@media (min-width: 500px) {
+  body {
+    font-size: 1.125rem;
+  }
+  .master-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section {
+    width: 50%;
+    min-height: 100vh;
+  }
+  section.hero h1 {
+    font-size: 3.5rem;
+    padding: 0;
+  }
+  section.hero h2 {
+    font-size: 1.75rem;
+  }
+  section.hero h3 {
+    font-size: 1.125rem;
+  }
+  section.register {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */

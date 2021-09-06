@@ -54,3 +54,11 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #2 - Finished writing HTML, injecting content and setting links/images.
 
 - Commit #3 - Finished rough site coding. Will refactor and rebuild mobile first in future.
+
+#### Barbecue Registration Site
+
+- Commit #1 - Initial file/folder creation and image import.
+
+- Commit #2 - Completed main site HTML and CSS. Created script.js.
+
+- Commit #3 - Added form-submit functionality and post-submit message.
