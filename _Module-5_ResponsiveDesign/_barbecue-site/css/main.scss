@@ -1,0 +1,206 @@
+/* Become a BBQ Master! */
+
+/* Variables */
+$orange: #F18119;
+$dark-grey: #404040;
+$white: #fff;
+
+$font-stack: 'Source Sans Pro',
+sans-serif;
+/* End Variables */
+
+
+/* =========================
+Master Overrides
+========================= */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font-stack;
+    color: $dark-grey;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* =========================
+Both Sides - max-width & centering
+========================= */
+section.hero>*,
+section.register>* {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* =========================
+Hero Section (Top-Mobile, Left-Desktop)
+========================= */
+section.hero {
+    background-color: $dark-grey;
+    background-image: url(/_Scrimba-Courses/_Front-End_Developer_Course/_Module-5_ResponsiveDesign/_barbecue-site/img/dark-ribs.jpg);
+    background-size: cover;
+    background-position: bottom right;
+
+    /* flexbox  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+
+    h1 {
+        margin: 0;
+        padding: 0 1em;
+        font-size: 2.25rem;
+        font-weight: 300;
+        color: $white;
+    }
+
+    h2 {
+        margin: 0;
+        margin-bottom: 1.5rem;
+        font-size: 1.3125rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $orange;
+    }
+
+    h3 {
+        margin: 0;
+        padding-top: 2px;
+        font-size: 0.625rem;
+        color: $orange;
+        border-top: 5px solid $orange;
+        border-image: linear-gradient(to left, #FF713B, #ffa51d) 1;
+    }
+
+    span.bolded {
+        font-weight: 900;
+    }
+}
+
+
+/* =========================
+Register Section (Bottom-Mobile, Right-Desktop)
+========================= */
+section.register {
+    padding: 2em 1.2em;
+
+    h2 {
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        margin-top: 0.3em;
+        text-transform: uppercase;
+        color: $orange;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    p.register__finePrint {
+        font-size: 0.625rem;
+        letter-spacing: 0.4px;
+    }
+
+    form.email-collector {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    input,
+    .btn {
+        width: 100%;
+        font-family: inherit;
+        text-align: inherit;
+        border-radius: 5px;
+    }
+
+    input {
+        margin-bottom: 0.75em;
+        padding: 0.5em;
+        border: 1px solid #b6b6b6
+    }
+
+    .btn {
+        display: block;
+        padding: 1em 1.5em;
+        font-size: 0.625rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background: linear-gradient(to left, #FF713B, #FFA51D);
+        color: $white;
+        transition: color 0.5s;
+        transition: transform 350ms;
+        transform: scale(1.0);
+
+
+        &:hover,
+        &:focus {
+            color: #000;
+            transform: scale(1.1);
+        }
+    }
+
+
+}
+
+
+/* =========================
+Media Query
+========================= */
+
+@media (min-width: 500px) {
+
+    body {
+        font-size: 1.125rem;
+    }
+
+    .master-container {
+        display: flex;
+    }
+
+    section {
+        width: 50%;
+        min-height: 100vh;
+    }
+
+    section.hero {
+        h1 {
+            font-size: 3.5rem;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+        }
+
+        h3 {
+            font-size: 1.125rem;
+        }
+    }
+
+
+    section.register {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

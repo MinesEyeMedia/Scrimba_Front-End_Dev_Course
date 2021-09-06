@@ -58,3 +58,5 @@ Notes and updates for the front-end developer course by Scrimba.
 #### Barbecue Registration Site
 
 - Commit #1 - Initial file/folder creation and image import.
+
+- Commit #2 - Completed main site HTML and CSS. Created script.js.
