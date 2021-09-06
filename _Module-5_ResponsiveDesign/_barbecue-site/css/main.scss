@@ -108,6 +108,10 @@ section.register {
         font-weight: 300;
     }
 
+    p.margin-top-kill {
+        margin-top: 0;
+    }
+
     p.register__finePrint {
         font-size: 0.625rem;
         letter-spacing: 0.4px;
@@ -158,7 +162,6 @@ section.register {
         }
     }
 
-
 }
 
 
@@ -195,7 +198,6 @@ Media Query
             font-size: 1.125rem;
         }
     }
-
 
     section.register {
         display: flex;

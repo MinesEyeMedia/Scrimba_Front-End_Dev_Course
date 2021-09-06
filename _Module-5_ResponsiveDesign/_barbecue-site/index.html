@@ -26,7 +26,7 @@
             </h2>
         </section>
 
-        <section class="register">
+        <section id="register" class="register">
             <h2>Become a BBQ master!</h2>
             <h3>Register Today</h3>
             <p>BBQ isn't just standing in front of your grill with it on full blast and hoping for the best.
@@ -34,15 +34,17 @@
                 art! One way to speed up the process is to learn from the best. You can do just that by signing
                 up
                 for this free webinar!</p>
-            <form class="email-collector" action="#" method="POST">
-                <input type="text" id="name" placeholder="first name" aria-label="first name" required>
-                <input type="email" id="email" placeholder="email" aria-label="email address" required>
+            <form id="emailCollector" class="email-collector" action="#" method="POST">
+                <input type="text" name="firstName" id="name" placeholder="first name" aria-label="first name" required>
+                <input type="email" name="emailAddress" id="email" placeholder="email" aria-label="email address"
+                    required>
                 <button type="submit" class="btn btn-primary">Register</button>
             </form>
             <p class="register__finePrint">We'll never share your information without your permission</p>
         </section>
 
     </main><!-- /main.master-container -->
+    <script src="script.js"></script>
 </body>
 
 </html>

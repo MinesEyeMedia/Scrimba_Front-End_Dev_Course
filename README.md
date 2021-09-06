@@ -60,3 +60,5 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #1 - Initial file/folder creation and image import.
 
 - Commit #2 - Completed main site HTML and CSS. Created script.js.
+
+- Commit #3 - Added form-submit functionality and post-submit message.

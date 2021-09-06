@@ -108,6 +108,10 @@ section.register p {
   font-weight: 300;
 }
 
+section.register p.margin-top-kill {
+  margin-top: 0;
+}
+
 section.register p.register__finePrint {
   font-size: 0.625rem;
   letter-spacing: 0.4px;
