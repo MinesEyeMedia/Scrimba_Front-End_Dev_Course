@@ -96,6 +96,41 @@ class User {
     }
 }
 
-let user2234 = new User("Jenny Rose", "Olais", 18, "Student", 7850)
-let message = `${user2234.firstName} ${user2234.lastName} is an ${user2234.age} year old ${user2234.occupation} that makes $${user2234.income} per year.`
+let JRose = new User("Jenny Rose", "Olais", 18, "Student", 7850)
+let message = `${JRose.firstName} ${JRose.lastName} is an ${JRose.age} year old ${JRose.occupation} that makes $${JRose.income} per year.`
 console.log(message)
+
+
+// TODO: Class Inheritance or 'Extending'
+// we are able to 'inherit' or 'pull' CLASS properties and methods from an existing class and bring them into a new class.
+// it's a slightly more complicated concept to understand but easy once you get it.
+// to create a class inheritance we use the 'extend' keyword.
+// we'll 'extend' or 'pull' (as I prefer to think of it) some properties/methods from the class 'User' above.
+// we start with the class keyword followed by the new class name and the extend keyword followed again by the class we're 'pulling from'.
+class AdditionalStats extends User {
+    // the arguments within the constructor need to have ALL the params that will be used or inherited from the reference class.
+    // below we're inheriting the params: firstName, lastName, age, occupation and income from the class template above called 'User'.
+    constructor(firstName, lastName, age, occupation, income, gender, pronouns, sexualPreference, city, country) {
+        // we use the 'super' function (with the desired arguments passed) to reference/pull from the class we're inheriting or extending from.
+        super(firstName, lastName, age, occupation, income)
+        // as gender, pronouns, sexualPreference, city & country are new properties, we have to declare them here as we normally would.
+        this.gender = gender
+        this.pronouns = pronouns
+        this.sexualPreference = sexualPreference
+        this.city = city
+        this.country = country
+    }
+    // we've also created a new method called 'summary()' which console.logs our message.
+    summary() {
+        console.log(`${this.firstName} ${this.lastName} is a ${this.age} year old ${this.gender} from ${this.city}, ${this.country}, who works as a ${this.occupation} making ${this.income} a year. This person uses the pronouns "${this.pronouns}" and prefers ${this.sexualPreference} sexually.`)
+    }
+}
+
+// here we use the new CLASS "AdditionalStats" that is inheriting various properties from the CLASS "User" to create the new OBJECT called "Ares".
+let Ares = new AdditionalStats("Ares", "Olais", 28, "Saleswoman", 10500, "Female", "She/Her", "Men", "Cebu", "Philippines")
+
+// this will display the object and it's properties and methods.
+console.log(Ares)
+
+// this calls the 'summary()' method within the object "Ares".
+Ares.summary()

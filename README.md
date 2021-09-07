@@ -70,3 +70,5 @@ This module is to be used to take random notes and so forth that don't quite fit
 - Commit #1 - Created directories & base HTML, CSS & JS Files.
 
 - Commit #2 - Created and wrote a detailed notes page on JS Objects & Classes.
+
+- Commit #3 - Created and wrote detailed notes on JavaScript Objects, Classes & Class Inheritance.
