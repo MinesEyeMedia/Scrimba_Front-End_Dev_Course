@@ -68,3 +68,5 @@ Notes and updates for the front-end developer course by Scrimba.
 This module is to be used to take random notes and so forth that don't quite fit into specific modules. It may also be used for general testing of concepts, etc.
 
 - Commit #1 - Created directories & base HTML, CSS & JS Files.
+
+- Commit #2 - Created and wrote a detailed notes page on JS Objects & Classes.
