@@ -62,3 +62,9 @@ Notes and updates for the front-end developer course by Scrimba.
 - Commit #2 - Completed main site HTML and CSS. Created script.js.
 
 - Commit #3 - Added form-submit functionality and post-submit message.
+
+
+## Module #0 - Stratchpad-Testing
+This module is to be used to take random notes and so forth that don't quite fit into specific modules. It may also be used for general testing of concepts, etc.
+
+- Commit #1 - Created directories & base HTML, CSS & JS Files.
