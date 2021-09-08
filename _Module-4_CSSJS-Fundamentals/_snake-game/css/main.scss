@@ -28,10 +28,14 @@ body {
 .square {
     width: 20px;
     height: 20px;
-    background-color: blue;
+    // background-color: blue;
     // border: 1px solid rgba(0, 0, 0, 0.171);
 }
 
 .snake {
     background-color: green;
+}
+
+.apple {
+    background-color: red;
 }
