@@ -72,3 +72,10 @@ This module is to be used to take random notes and so forth that don't quite fit
 - Commit #2 - Created and wrote a detailed notes page on JS Objects & Classes.
 
 - Commit #3 - Created and wrote detailed notes on JavaScript Objects, Classes & Class Inheritance.
+
+
+## Module #4 - CSS & JS Fundamentals
+
+#### Building a Snake Game
+
+- Commit #1 - Initial HTML, CSS/SASS & JS Files created.
