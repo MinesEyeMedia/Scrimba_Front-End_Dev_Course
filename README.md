@@ -63,3 +63,4 @@ This module is to be used to take random notes and so forth that don't quite fit
 
 - Commit #1 - Initial HTML, CSS/SASS & JS Files created.
 - Commit #2 - Wrote main HTML. Added styling & createGrid() function.
+- Commit #3 - Added Snake movement function, interval timer to call that function and a cursorKey control function.

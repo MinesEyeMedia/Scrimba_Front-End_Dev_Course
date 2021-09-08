@@ -3,10 +3,12 @@ body {
   padding: 10;
   background-color: #3d3d3d;
   color: #e2e2e2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .master-wrapper {
-  height: 60vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,6 +39,9 @@ body {
   width: 20px;
   height: 20px;
   background-color: blue;
-  border: 1px solid pink;
+}
+
+.snake {
+  background-color: green;
 }
 /*# sourceMappingURL=main.css.map */

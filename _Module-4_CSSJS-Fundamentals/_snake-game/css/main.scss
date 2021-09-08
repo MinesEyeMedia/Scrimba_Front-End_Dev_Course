@@ -4,17 +4,17 @@ body {
     padding: 10;
     background-color: rgb(61, 61, 61);
     color: rgb(226, 226, 226);
+    box-sizing: border-box;
 }
 
 .master-wrapper {
     // margin: 0 auto;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     // align-content: center;
-    
 }
 
 .grid {
@@ -29,5 +29,9 @@ body {
     width: 20px;
     height: 20px;
     background-color: blue;
-    border: 1px solid pink;
+    // border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.snake {
+    background-color: green;
 }
