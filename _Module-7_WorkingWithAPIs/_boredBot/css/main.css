@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: #353D2F;
+  color: #fffbfe;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 50vh;
+}
+
+h4 {
+  margin-bottom: 4em;
+}
+
+.btn {
+  margin-top: 5em;
+  padding: 2em 4.5em;
+  border: none;
+  border-radius: 5em;
+  font-size: 1.125rem;
+  font-weight: 900;
+  background-color: #6BA368;
+  color: #fffbfe;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

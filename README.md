@@ -65,3 +65,11 @@ This module is to be used to take random notes and so forth that don't quite fit
 - Commit #2 - Wrote main HTML. Added styling & createGrid() function.
 - Commit #3 - Added Snake movement function, interval timer to call that function and a cursorKey control function.
 - Commit #4 - Completed all JS for 'snake game'. Still needs notes and refactoring, and better understanding.
+
+
+
+## module #7 - Working with API's
+
+#### Bored-Bot API Intro Project
+ 
+ - Commit #1 - Created HTML, CSS & JS Files. Fully completed the simple 'BoredBot' app.
