@@ -73,3 +73,7 @@ This module is to be used to take random notes and so forth that don't quite fit
 #### Bored-Bot API Intro Project
  
  - Commit #1 - Created HTML, CSS & JS Files. Fully completed the simple 'BoredBot' app.
+
+#### BlogSpace API Project
+
+- Commit #1 - Created _blogSpace folder and all necessary project files.
